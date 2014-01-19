@@ -1,4 +1,6 @@
 love.conf = (t) ->
-	t.window.width = 640
-	t.window.height = 480
+	ZOOM = 4
+
+	t.window.width = 184 * ZOOM
+	t.window.height = 144 * ZOOM
 	t.window.title = "Minergirl"
